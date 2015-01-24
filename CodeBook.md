@@ -1,10 +1,10 @@
-Getting and Cleaning Data Project
+# Getting and Cleaning Data Project
 
-Heather Wade
+Abhijit Naik
 
 Description
 
-Additional information about the variables, data and transformations used in the course project for the Johns Hopkins Getting and Cleaning Data course.
+This file contains information about the steps that were 
 
 Source Data
 
