@@ -1,18 +1,22 @@
-## Getting and Cleaning Data Project
+## Description
 
-Abhijit Naik
+This file describes the transformations that were performed to clean up the merge, clean, and create a new data set from the original data.
 
-Description
+Finally a second tidy data set was created which incorporated only the average of each variable for each activity and each subject.
 
-This file contains information about the steps that were 
+## Source Data
 
-Source Data
+A full description of the data used in this project can be found at The UCI Machine Learning Repository:
 
-A full description of the data used in this project can be found at The UCI Machine Learning Repository
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-The source data for this project can be found here.
+The data was downloaded from the source fiven below:
 
-Data Set Information
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+The data was manually downloaded into the working directory.
+
+## Data Set Information
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
 
