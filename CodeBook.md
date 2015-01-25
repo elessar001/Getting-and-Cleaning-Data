@@ -52,3 +52,29 @@ The final data set involved calculating the mean for each variable for each acti
 
 ## Description of Variables in the Final Data Set
 
+The final data set has three descriptive variables:
+
++ activityId	- Activity identifier
++ activityType - Decription of each activity identifier
++ subjectId - Identifier for each test subject
+
+The final data set also contains the means of the following data variables, averaged over each activity and each subject:
+
++ timeBodyAccMagnitudeMean
++ timeBodyAccMagnitudeStdDev
++ timeGravityAccMagnitudeMean
++ timeGravityAccMagnitudeStdDev
++ timeBodyAccJerkMagnitudeMean
++ timeBodyAccJerkMagnitudeStdDev
++ timeBodyGyroMagnitudeMean
++ "timeBodyGyroMagnitudeStdDev
++ timeBodyGyroJerkMagnitudeMean
++ timeBodyGyroJerkMagnitudeStdDev
++ freqBodyAccMagnitudeMean
++ freqBodyAccMagnitudeStdDev
++ freqBodyAccJerkMagnitudeMean
++ freqBodyAccJerkMagnitudeStdDev
++ freqBodyGyroMagnitudeMean
++ freqBodyGyroMagnitudeStdDev
++ freqBodyGyroJerkMagnitudeMean
++ freqBodyGyroJerkMagnitudeStdDev
