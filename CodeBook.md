@@ -22,11 +22,11 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 For each record in the dataset the following variables are provided:
 
-+ Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-+ Triaxial Angular velocity from the gyroscope.
-+ A 561-feature vector with time and frequency domain variables.
-+ Its activity label.
-+ An identifier of the subject who carried out the experiment.
++ Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration
++ Triaxial Angular velocity from the gyroscope
++ A 561-feature vector with time and frequency domain variables
++ Its activity label
++ An identifier of the subject who carried out the experiment
 
 ## Data Transformations
 
@@ -34,18 +34,21 @@ For each record in the dataset the following variables are provided:
 
 First column names and activity labels were applied to training and test data respectively. Then the training and test data were merged to form a new data set
 
-### Extracting only the measurements on the mean and standard deviation for each measurement.
+### Extracting Measurements on Mean and Standard Deviation for Each Variable
 
 A logical vector was created that contained TRUE values for columns with ID, and columns with "Mean" and "StdDev" in column labels. The logical vector was used to subset the merged data set to retain the required columns.
 
-### Using descriptive activity names to name the activities in the data set
+### Using Descriptive Activity Names
 
 The activity type was combined with the merged data subset to use decriptive activity names for the variables in the data set.
 
-### Appropriately label the data set with descriptive activity names.
+### Labelling Data Set with Descriptive Activity Names.
 
-Using gsub function for pattern replacement to clean up the data labels.
+The gsub function was used to identify pattern and replace them with more descriptive labels.
 
 ### Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Per the project instructions, we need to produce only a data set with the average of each veriable for each activity and subject
+The final data set involved calculating the mean for each variable for each activity and subject using the aggregate function.
+
+## Description of Variables in the Final Data Set
+
