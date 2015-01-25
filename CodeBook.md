@@ -58,7 +58,7 @@ The final data set has three descriptive variables:
 + activityType - Decription of each activity identifier
 + subjectId - Identifier for each test subject
 
-The final data set also contains the means of the following data variables, averaged over each activity and each subject:
+The final data set also contains the means of the following 18 data variables, averaged over each activity and each subject:
 
 + timeBodyAccMagnitudeMean
 + timeBodyAccMagnitudeStdDev
