@@ -1,4 +1,6 @@
-## Getting-and-Cleaning-Data
+## Getting and Cleaning Data
+
+This files describes the files (and modifications to the files) to be used for the Getting and Cleaning Data course project 
 
 ### Description of Files
 
