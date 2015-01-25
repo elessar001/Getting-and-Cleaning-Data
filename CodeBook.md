@@ -67,7 +67,7 @@ The final data set also contains the means of the following 18 data variables, a
 + timeBodyAccJerkMagnitudeMean
 + timeBodyAccJerkMagnitudeStdDev
 + timeBodyGyroMagnitudeMean
-+ "timeBodyGyroMagnitudeStdDev
++ timeBodyGyroMagnitudeStdDev
 + timeBodyGyroJerkMagnitudeMean
 + timeBodyGyroJerkMagnitudeStdDev
 + freqBodyAccMagnitudeMean
